@@ -1,0 +1,27 @@
+[alias]
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    s = status -sb
+    bv = branch -v
+    rv = remote -v
+[user]
+    name = clement
+    email = clement@evaneos.com
+[core]
+    filemode = false
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[color "branch"]
+    current = red
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan

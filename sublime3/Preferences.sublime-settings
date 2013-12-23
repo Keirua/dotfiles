@@ -1,0 +1,23 @@
+{
+	"always_show_minimap_viewport": false,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"copy_with_empty_selection": true,
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
+	"font_size": 11,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"GitGutter"
+	],
+	"indent_to_bracket": false,
+	"remember_open_files": true,
+	"scroll_past_end": true,
+	"show_encoding": false,
+	"show_line_endings": false,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"word_wrap": "auto"
+}

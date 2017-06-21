@@ -3,9 +3,14 @@
     s = status -sb
     bv = branch -v
     rv = remote -v
+    co = checkout
+    commend = commit --amend --no-edit
+    please = push --force-with-lease
+    psom = push origin master
+    alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\t=> \\2/' | sort
 [user]
     name = clement
-    email = clement@evaneos.com
+    email = clement@keiruaprod.fr
 [core]
     filemode = false
 [color]
@@ -25,3 +30,5 @@
     added = yellow
     changed = green
     untracked = cyan
+[push]
+	   default = current

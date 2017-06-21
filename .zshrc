@@ -47,10 +47,10 @@ export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/s
 
 autoload -U compinit
 compinit
- 
+
 #Insensible à la casse
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
- 
+
 #compinstall
 zstyle ':completion:*:descriptions' format '%U%B%d%b%u'
 zstyle ':completion:*:warnings' format '%BSorry, no matches for: %d%b'
@@ -70,7 +70,7 @@ zstyle ':completion:*:*:kill:*:processes' list-colors "=(#b) #([0-9]#)*=36=31"
 
 autoload colors; colors
 export PS1="%B[%{$fg[red]%}%n%{$reset_color%}%b@%B%{$fg[cyan]%}%m%b%{$reset_color%}:%~%B]%b "
- 
+
 # Les alias marchent comme sous bash
 alias ls='ls --color=auto'
 alias ll='ls --color=auto -lh'
@@ -80,10 +80,10 @@ alias df='df -h'
 # Un grep avec des couleurs :
 export GREP_COLOR=31
 alias grep='grep --color=auto'
- 
+
 # un VRAI éditeur de texte ;)
 export EDITOR=/usr/bin/vim
- 
+
 #Activer l'historique des commandes:
 HISTFILE=~/.history
 HISTSIZE=1000
@@ -153,7 +153,7 @@ functions knocks () {
     knock dev.evaneos.com 7022 8022 6022
     knock www.evaneos.com 7022 8022 6022
     knock preprod.evaneos.com 7022 8022 6022
-    echo "Knocked ports !"  
+    echo "Knocked ports !"
 }
 
 alias gut='git'

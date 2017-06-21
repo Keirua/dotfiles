@@ -57,3 +57,12 @@ else
   echoerr "Sorry, this version of vim was not compiled with
   +multi_byte"
 endif
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+set nocompatible
+set number
+map <F2> :NERDTreeToggle<CR>
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
